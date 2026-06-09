@@ -1,0 +1,13 @@
+<html><head></head><body><p>When only one dropdown exists and has aria-hidden, it will be filled in anyway</p><form>
+    First Name: <input id="fname" data-moz-autofill-type="given-name">
+    Last Name: <input id="lname" data-moz-autofill-type="family-name">
+    Address: <input id="address" data-moz-autofill-type="street-address">
+    <select id="county" autocomplete="address-level1" aria-hidden="true" data-moz-autofill-type="address-level1">
+      <option value="--">Select a county</option>
+      <option value="C1">Cheshire</option>
+      <option value="K1">Kansas</option>
+      <option value="N1">Norfolk</option>
+      <option value="S1">Surrey</option>
+    </select>
+  </form>
+</body></html>

@@ -1,0 +1,29 @@
+<html><head></head><body><p>Ensure fields with 'cc' or 'card' and 'type' are recognized as credit card type fields, and other 'type' fields are not.</p>
+          <form>
+            <input id="cc-number" autocomplete="cc-number" data-moz-autofill-type="cc-number">
+            <select id="cc-type" data-moz-autofill-type="cc-type">
+              <option value="0" selected="">Card Type</option>
+              <option value="1">Visa</option>
+              <option value="2">MasterCard</option>
+              <option value="3">Diners Club International</option>
+              <option value="4">Discover</option>
+            </select>
+          </form>
+          <form>
+            <input id="cc-number" autocomplete="cc-number" data-moz-autofill-type="cc-number">
+            <select id="card-type" data-moz-autofill-type="cc-type">
+              <option value="0" selected="">Card Type</option>
+              <option value="1">Visa</option>
+              <option value="2">MasterCard</option>
+              <option value="3">Diners Club International</option>
+              <option value="4">Discover</option>
+            </select>
+          </form>
+          <form>
+            <input type="text" id="name-type" autocomplete="name" data-moz-autofill-type="name">
+            <input id="street-address-type" autocomplete="street-address" data-moz-autofill-type="street-address">
+            <input type="text" id="country-type" autocomplete="country" data-moz-autofill-type="country">
+            </form>
+        
+      
+    </body></html>

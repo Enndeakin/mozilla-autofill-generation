@@ -1,0 +1,16 @@
+<html><head></head><body><p>When a &lt;select&gt; is next to address-level2, we assume the select field is address-level1</p>
+          <form>
+            <input type="text" id="name" autocomplete="name" data-moz-autofill-type="name">
+            <input type="text" id="country" autocomplete="country" data-moz-autofill-type="country">
+            <select data-moz-autofill-type="address-level1"><option value="test">test</option></select>
+            <input type="text" id="address-level2" autocomplete="address-level2" data-moz-autofill-type="address-level2">
+          </form>
+          <form>
+            <input type="text" id="name" autocomplete="name" data-moz-autofill-type="name">
+            <input type="text" id="country" autocomplete="country" data-moz-autofill-type="country">
+            <input type="text" id="address-level2" autocomplete="address-level2" data-moz-autofill-type="address-level2">
+            <select data-moz-autofill-type="address-level1"><option value="test">test</option></select>
+          </form>
+        
+        
+      </body></html>

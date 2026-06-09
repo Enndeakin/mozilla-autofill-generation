@@ -1,0 +1,13 @@
+<html><head></head><body><p>street-address field is treated as address-line1 when address-line2 is present while adddress-line1 is not</p>
+          <form>
+            <input type="text" id="addr-3" data-moz-autofill-type="address-line1">
+            <input type="text" id="addr-2" data-moz-autofill-type="address-line2">
+            <input type="text" id="addr-1" data-moz-autofill-type="address-line3">
+          </form>
+          <form>
+            <input type="text" id="addr-3" autocomplete="address-line3" data-moz-autofill-type="address-line3">
+            <input type="text" id="addr-2" autocomplete="address-line2" data-moz-autofill-type="address-line2">
+            <input type="text" id="addr-1" autocomplete="address-line1" data-moz-autofill-type="address-line1">
+          </form>
+        
+        </body></html>

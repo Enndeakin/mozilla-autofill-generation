@@ -1,0 +1,24 @@
+<html><head></head><body><p>When two dropdown fields exist and one is hidden, the autofill should be performed on the visible dropdown.</p>
+    First Name: <input id="fname" data-moz-autofill-type="given-name">
+    Last Name: <input id="lname" data-moz-autofill-type="family-name">
+    Address: <input id="address" data-moz-autofill-type="street-address">
+    <div id="unusedArea" style="display: none;">
+      Country: <select id="unusedCountry" autocomplete="country" data-moz-autofill-type="country">
+          <option value="">Select a country</option>
+          <option value="Australia">Australia</option>
+          <option value="Indonesia">Indonesia</option>
+          <option value="Japan">Japan</option>
+          <option value="Malaysia">Malaysia</option>
+          <option value="US">United States</option>
+        </select>
+    </div>
+    <p>City: <input id="city" data-moz-autofill-type="address-level2"></p>
+    <select id="country" autocomplete="country" data-moz-autofill-type="country">
+      <option value="">Select a country</option>
+      <option value="Germany">Germany</option>
+      <option value="Canada">Canada</option>
+      <option value="United States">United States</option>
+      <option value="France">France</option>
+    </select>
+  
+</body></html>
